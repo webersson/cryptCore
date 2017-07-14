@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71026ACC1F0C0CD200693EFA /* frage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71026ACB1F0C0CD200693EFA /* frage.swift */; };
+		71167E791F06995A00169CE7 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71167E781F06995A00169CE7 /* Data.swift */; };
+		71167E7B1F06996700169CE7 /* CoinValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71167E7A1F06996700169CE7 /* CoinValues.swift */; };
+		71167E7D1F06997500169CE7 /* Coins_NSManaged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71167E7C1F06997500169CE7 /* Coins_NSManaged.swift */; };
+		713A50871EFD541D007416AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713A50861EFD541D007416AB /* AppDelegate.swift */; };
+		713A50891EFD541D007416AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713A50881EFD541D007416AB /* ViewController.swift */; };
+		713A508E1EFD541D007416AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 713A508D1EFD541D007416AB /* Assets.xcassets */; };
+		713A50911EFD541D007416AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713A508F1EFD541D007416AB /* Main.storyboard */; };
+		713A509B1EFD58BC007416AB /* polo_unten.png in Resources */ = {isa = PBXBuildFile; fileRef = 713A509A1EFD58BC007416AB /* polo_unten.png */; };
+		713D6EAB1F00652B00D072EB /* IntegerTransformmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713D6EAA1F00652B00D072EB /* IntegerTransformmer.swift */; };
+		713D6EAF1F008D9700D072EB /* colordefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713D6EAE1F008D9700D072EB /* colordefaults.swift */; };
+		713DB26F1F03EAAD00076DF4 /* deviation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713DB26E1F03EAAD00076DF4 /* deviation.swift */; };
+		713DB2711F04427C00076DF4 /* CoinContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713DB2701F04427C00076DF4 /* CoinContainer.swift */; };
+		715C81121F0A648200FA2AE9 /* CoinDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 715C81101F0A648200FA2AE9 /* CoinDataModel.xcdatamodeld */; };
+		715C81381F0ACA1B00FA2AE9 /* BigNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715C81371F0ACA1B00FA2AE9 /* BigNumbers.swift */; };
+		715C815B1F0BD9CC00FA2AE9 /* Logorequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715C815A1F0BD9CC00FA2AE9 /* Logorequest.swift */; };
+		71653DF31F083B37005AB4AE /* headerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71653DF21F083B37005AB4AE /* headerButton.swift */; };
+		71653DFB1F0875D0005AB4AE /* CustomTableHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71653DFA1F0875D0005AB4AE /* CustomTableHeaderCell.swift */; };
+		71A67B701F0FB86F0025B9F4 /* index2.html in Resources */ = {isa = PBXBuildFile; fileRef = 71A67B6F1F0FB86F0025B9F4 /* index2.html */; };
+		71B3F2861F0E706000CCBD0F /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 71B3F2851F0E706000CCBD0F /* index.html */; };
+		71F01B9D1F02D43E007A1D67 /* reserve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F01B9C1F02D43E007A1D67 /* reserve.swift */; };
+		71F01B9F1F02F431007A1D67 /* starLeer_klein.png in Resources */ = {isa = PBXBuildFile; fileRef = 71F01B9E1F02F431007A1D67 /* starLeer_klein.png */; };
+		71F01BA11F02F440007A1D67 /* starGelb_klein.png in Resources */ = {isa = PBXBuildFile; fileRef = 71F01BA01F02F440007A1D67 /* starGelb_klein.png */; };
+		71F01BA51F02F6F2007A1D67 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F01BA41F02F6F2007A1D67 /* CheckBox.swift */; };
+		71F01BA71F02FDC2007A1D67 /* AddStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F01BA61F02FDC2007A1D67 /* AddStats.swift */; };
+		71F01BAB1F033FB3007A1D67 /* starEmpty.png in Resources */ = {isa = PBXBuildFile; fileRef = 71F01BAA1F033FB3007A1D67 /* starEmpty.png */; };
+		71F01BAD1F033FBC007A1D67 /* starFilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 71F01BAC1F033FBC007A1D67 /* starFilled.png */; };
+		71F568391EFD5B540099DABB /* overview.png in Resources */ = {isa = PBXBuildFile; fileRef = 71F568381EFD5B540099DABB /* overview.png */; };
+		71F5683B1EFD5C030099DABB /* poloniex_bau.png in Resources */ = {isa = PBXBuildFile; fileRef = 71F5683A1EFD5C030099DABB /* poloniex_bau.png */; };
+		71F5683D1EFD5ED90099DABB /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F5683C1EFD5ED90099DABB /* ViewController1.swift */; };
+		71F568401EFD5EE30099DABB /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F5683E1EFD5EE30099DABB /* ViewController2.swift */; };
+		71F5684B1EFD73110099DABB /* overviewImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F5684A1EFD73110099DABB /* overviewImageButton.swift */; };
+		71F5684F1EFD7C660099DABB /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F5684E1EFD7C660099DABB /* Notifications.swift */; };
+		71F568511EFDA8830099DABB /* poloniex_blau_mit_beige.png in Resources */ = {isa = PBXBuildFile; fileRef = 71F568501EFDA8830099DABB /* poloniex_blau_mit_beige.png */; };
+		71F568531EFDB5D40099DABB /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 71F568521EFDB5D40099DABB /* button.png */; };
+		71F568571EFDBE510099DABB /* poloniex3.png in Resources */ = {isa = PBXBuildFile; fileRef = 71F568561EFDBE510099DABB /* poloniex3.png */; };
+		71F568591EFDBE5E0099DABB /* overview3.png in Resources */ = {isa = PBXBuildFile; fileRef = 71F568581EFDBE5E0099DABB /* overview3.png */; };
+		71F5685B1EFE84BE0099DABB /* poloniex3_heller.png in Resources */ = {isa = PBXBuildFile; fileRef = 71F5685A1EFE84BE0099DABB /* poloniex3_heller.png */; };
+		71F5685D1EFEA75D0099DABB /* overview3_heller.png in Resources */ = {isa = PBXBuildFile; fileRef = 71F5685C1EFEA75D0099DABB /* overview3_heller.png */; };
+		71F568601EFEB1B50099DABB /* Pusher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F5685F1EFEB1B50099DABB /* Pusher.swift */; };
+		71F568621EFEB1C20099DABB /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F568611EFEB1C20099DABB /* DateExtension.swift */; };
+		71F568641EFEB1CC0099DABB /* JSONHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F568631EFEB1CC0099DABB /* JSONHelper.swift */; };
+		71F568661EFEB1E00099DABB /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F568651EFEB1E00099DABB /* Helpers.swift */; };
+		71F568681EFEB1F70099DABB /* CoinmarketRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F568671EFEB1F70099DABB /* CoinmarketRequest.swift */; };
+		71F5686A1EFEB6760099DABB /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F568691EFEB6760099DABB /* ProgressView.swift */; };
+		71F5686C1EFF07300099DABB /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F5686B1EFF07300099DABB /* ColorExtension.swift */; };
+		71F5686E1EFF19C30099DABB /* settings_heller.png in Resources */ = {isa = PBXBuildFile; fileRef = 71F5686D1EFF19C30099DABB /* settings_heller.png */; };
+		71F568701EFF19CF0099DABB /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 71F5686F1EFF19CF0099DABB /* settings.png */; };
+		71F568721EFF1EE60099DABB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F568711EFF1EE60099DABB /* SettingsViewController.swift */; };
+		71F568741EFF23E10099DABB /* reserveCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F568731EFF23E10099DABB /* reserveCode.swift */; };
+		98954EA3020E25D11C3CA75E /* Pods_Cryptotable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4006165465955DD008CD470 /* Pods_Cryptotable.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71026ACB1F0C0CD200693EFA /* frage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = frage.swift; sourceTree = "<group>"; };
+		71167E781F06995A00169CE7 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		71167E7A1F06996700169CE7 /* CoinValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinValues.swift; sourceTree = "<group>"; };
+		71167E7C1F06997500169CE7 /* Coins_NSManaged.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coins_NSManaged.swift; sourceTree = "<group>"; };
+		713A50831EFD541D007416AB /* Cryptotable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cryptotable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		713A50861EFD541D007416AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		713A50881EFD541D007416AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		713A508D1EFD541D007416AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		713A50901EFD541D007416AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		713A50921EFD541D007416AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		713A509A1EFD58BC007416AB /* polo_unten.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = polo_unten.png; sourceTree = "<group>"; };
+		713D6EAA1F00652B00D072EB /* IntegerTransformmer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegerTransformmer.swift; sourceTree = "<group>"; };
+		713D6EAE1F008D9700D072EB /* colordefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = colordefaults.swift; sourceTree = "<group>"; };
+		713DB26E1F03EAAD00076DF4 /* deviation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = deviation.swift; sourceTree = "<group>"; };
+		713DB2701F04427C00076DF4 /* CoinContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinContainer.swift; sourceTree = "<group>"; };
+		715C81111F0A648200FA2AE9 /* CoinDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoinDataModel.xcdatamodel; sourceTree = "<group>"; };
+		715C81371F0ACA1B00FA2AE9 /* BigNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigNumbers.swift; sourceTree = "<group>"; };
+		715C81391F0ADF9D00FA2AE9 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		715C815A1F0BD9CC00FA2AE9 /* Logorequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logorequest.swift; sourceTree = "<group>"; };
+		71653DF21F083B37005AB4AE /* headerButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = headerButton.swift; sourceTree = "<group>"; };
+		71653DFA1F0875D0005AB4AE /* CustomTableHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableHeaderCell.swift; sourceTree = "<group>"; };
+		71A67B6F1F0FB86F0025B9F4 /* index2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index2.html; sourceTree = "<group>"; };
+		71B3F2851F0E706000CCBD0F /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		71F01B9C1F02D43E007A1D67 /* reserve.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = reserve.swift; sourceTree = "<group>"; };
+		71F01B9E1F02F431007A1D67 /* starLeer_klein.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starLeer_klein.png; sourceTree = "<group>"; };
+		71F01BA01F02F440007A1D67 /* starGelb_klein.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starGelb_klein.png; sourceTree = "<group>"; };
+		71F01BA41F02F6F2007A1D67 /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		71F01BA61F02FDC2007A1D67 /* AddStats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddStats.swift; sourceTree = "<group>"; };
+		71F01BAA1F033FB3007A1D67 /* starEmpty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starEmpty.png; sourceTree = "<group>"; };
+		71F01BAC1F033FBC007A1D67 /* starFilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starFilled.png; sourceTree = "<group>"; };
+		71F568381EFD5B540099DABB /* overview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overview.png; sourceTree = "<group>"; };
+		71F5683A1EFD5C030099DABB /* poloniex_bau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poloniex_bau.png; sourceTree = "<group>"; };
+		71F5683C1EFD5ED90099DABB /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		71F5683E1EFD5EE30099DABB /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		71F5684A1EFD73110099DABB /* overviewImageButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = overviewImageButton.swift; sourceTree = "<group>"; };
+		71F5684E1EFD7C660099DABB /* Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		71F568501EFDA8830099DABB /* poloniex_blau_mit_beige.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poloniex_blau_mit_beige.png; sourceTree = "<group>"; };
+		71F568521EFDB5D40099DABB /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		71F568561EFDBE510099DABB /* poloniex3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poloniex3.png; sourceTree = "<group>"; };
+		71F568581EFDBE5E0099DABB /* overview3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overview3.png; sourceTree = "<group>"; };
+		71F5685A1EFE84BE0099DABB /* poloniex3_heller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poloniex3_heller.png; sourceTree = "<group>"; };
+		71F5685C1EFEA75D0099DABB /* overview3_heller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overview3_heller.png; sourceTree = "<group>"; };
+		71F5685F1EFEB1B50099DABB /* Pusher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pusher.swift; sourceTree = "<group>"; };
+		71F568611EFEB1C20099DABB /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		71F568631EFEB1CC0099DABB /* JSONHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONHelper.swift; sourceTree = "<group>"; };
+		71F568651EFEB1E00099DABB /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		71F568671EFEB1F70099DABB /* CoinmarketRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinmarketRequest.swift; sourceTree = "<group>"; };
+		71F568691EFEB6760099DABB /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		71F5686B1EFF07300099DABB /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		71F5686D1EFF19C30099DABB /* settings_heller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_heller.png; sourceTree = "<group>"; };
+		71F5686F1EFF19CF0099DABB /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		71F568711EFF1EE60099DABB /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		71F568731EFF23E10099DABB /* reserveCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = reserveCode.swift; sourceTree = "<group>"; };
+		D4006165465955DD008CD470 /* Pods_Cryptotable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cryptotable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6B37C0E9E0FCB0634BDD44 /* Pods-Cryptotable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cryptotable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cryptotable/Pods-Cryptotable.debug.xcconfig"; sourceTree = "<group>"; };
+		FA630921D15AA1AAC8A9B510 /* Pods-Cryptotable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cryptotable.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cryptotable/Pods-Cryptotable.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		713A50801EFD541D007416AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98954EA3020E25D11C3CA75E /* Pods_Cryptotable.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08AD5A8E3371008FB6879D7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4006165465955DD008CD470 /* Pods_Cryptotable.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		598C972EAA768FE9CEE73F8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC6B37C0E9E0FCB0634BDD44 /* Pods-Cryptotable.debug.xcconfig */,
+				FA630921D15AA1AAC8A9B510 /* Pods-Cryptotable.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		71167E7E1F06999300169CE7 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				71167E781F06995A00169CE7 /* Data.swift */,
+				71167E7A1F06996700169CE7 /* CoinValues.swift */,
+				71167E7C1F06997500169CE7 /* Coins_NSManaged.swift */,
+				71A67B6F1F0FB86F0025B9F4 /* index2.html */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		713A507A1EFD541D007416AB = {
+			isa = PBXGroup;
+			children = (
+				713A50851EFD541D007416AB /* Cryptotable */,
+				713A50841EFD541D007416AB /* Products */,
+				598C972EAA768FE9CEE73F8A /* Pods */,
+				08AD5A8E3371008FB6879D7C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		713A50841EFD541D007416AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				713A50831EFD541D007416AB /* Cryptotable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		713A50851EFD541D007416AB /* Cryptotable */ = {
+			isa = PBXGroup;
+			children = (
+				713A50861EFD541D007416AB /* AppDelegate.swift */,
+				71653DFE1F0931E6005AB4AE /* ViewController 1 */,
+				71653DFF1F093220005AB4AE /* ViewController 2 */,
+				71F568431EFD5F2A0099DABB /* ViewController */,
+				71F5685E1EFEB1850099DABB /* CoinmarketRequest */,
+				713A508F1EFD541D007416AB /* Main.storyboard */,
+				71F568421EFD5EFB0099DABB /* Pictures */,
+				71653DFC1F093111005AB4AE /* maybe usable */,
+				71653DFD1F09317C005AB4AE /* Extensions */,
+				713A50921EFD541D007416AB /* Info.plist */,
+				713A508D1EFD541D007416AB /* Assets.xcassets */,
+				715C81101F0A648200FA2AE9 /* CoinDataModel.xcdatamodeld */,
+			);
+			path = Cryptotable;
+			sourceTree = "<group>";
+		};
+		71653DFC1F093111005AB4AE /* maybe usable */ = {
+			isa = PBXGroup;
+			children = (
+				71F01BA61F02FDC2007A1D67 /* AddStats.swift */,
+				71F568731EFF23E10099DABB /* reserveCode.swift */,
+				71F01B9C1F02D43E007A1D67 /* reserve.swift */,
+				71F01BA41F02F6F2007A1D67 /* CheckBox.swift */,
+				71653DF21F083B37005AB4AE /* headerButton.swift */,
+			);
+			name = "maybe usable";
+			sourceTree = "<group>";
+		};
+		71653DFD1F09317C005AB4AE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				71F5684E1EFD7C660099DABB /* Notifications.swift */,
+				713D6EAA1F00652B00D072EB /* IntegerTransformmer.swift */,
+				713D6EAE1F008D9700D072EB /* colordefaults.swift */,
+				71F568611EFEB1C20099DABB /* DateExtension.swift */,
+				71F5686B1EFF07300099DABB /* ColorExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		71653DFE1F0931E6005AB4AE /* ViewController 1 */ = {
+			isa = PBXGroup;
+			children = (
+				71F5683C1EFD5ED90099DABB /* ViewController1.swift */,
+				71F568651EFEB1E00099DABB /* Helpers.swift */,
+				715C81371F0ACA1B00FA2AE9 /* BigNumbers.swift */,
+				71026ACB1F0C0CD200693EFA /* frage.swift */,
+				71F5685F1EFEB1B50099DABB /* Pusher.swift */,
+				71653DFA1F0875D0005AB4AE /* CustomTableHeaderCell.swift */,
+			);
+			name = "ViewController 1";
+			sourceTree = "<group>";
+		};
+		71653DFF1F093220005AB4AE /* ViewController 2 */ = {
+			isa = PBXGroup;
+			children = (
+				71F5683E1EFD5EE30099DABB /* ViewController2.swift */,
+			);
+			name = "ViewController 2";
+			sourceTree = "<group>";
+		};
+		71F568421EFD5EFB0099DABB /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				713A509A1EFD58BC007416AB /* polo_unten.png */,
+				71F5683A1EFD5C030099DABB /* poloniex_bau.png */,
+				71F568381EFD5B540099DABB /* overview.png */,
+				71F568501EFDA8830099DABB /* poloniex_blau_mit_beige.png */,
+				71F568521EFDB5D40099DABB /* button.png */,
+				71F568561EFDBE510099DABB /* poloniex3.png */,
+				71F5685A1EFE84BE0099DABB /* poloniex3_heller.png */,
+				71F5685C1EFEA75D0099DABB /* overview3_heller.png */,
+				71F568581EFDBE5E0099DABB /* overview3.png */,
+				71F5686D1EFF19C30099DABB /* settings_heller.png */,
+				71F5686F1EFF19CF0099DABB /* settings.png */,
+				71F01BA01F02F440007A1D67 /* starGelb_klein.png */,
+				71F01B9E1F02F431007A1D67 /* starLeer_klein.png */,
+				71F01BAC1F033FBC007A1D67 /* starFilled.png */,
+				71F01BAA1F033FB3007A1D67 /* starEmpty.png */,
+			);
+			name = Pictures;
+			sourceTree = "<group>";
+		};
+		71F568431EFD5F2A0099DABB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				713A50881EFD541D007416AB /* ViewController.swift */,
+				71F5684A1EFD73110099DABB /* overviewImageButton.swift */,
+				71F568711EFF1EE60099DABB /* SettingsViewController.swift */,
+				715C81391F0ADF9D00FA2AE9 /* MyPlayground.playground */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		71F5685E1EFEB1850099DABB /* CoinmarketRequest */ = {
+			isa = PBXGroup;
+			children = (
+				713DB2701F04427C00076DF4 /* CoinContainer.swift */,
+				71F568671EFEB1F70099DABB /* CoinmarketRequest.swift */,
+				71F568691EFEB6760099DABB /* ProgressView.swift */,
+				713DB26E1F03EAAD00076DF4 /* deviation.swift */,
+				715C815A1F0BD9CC00FA2AE9 /* Logorequest.swift */,
+				71F568631EFEB1CC0099DABB /* JSONHelper.swift */,
+				71B3F2851F0E706000CCBD0F /* index.html */,
+				71167E7E1F06999300169CE7 /* CoreData */,
+			);
+			name = CoinmarketRequest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		713A50821EFD541D007416AB /* Cryptotable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 713A50951EFD541D007416AB /* Build configuration list for PBXNativeTarget "Cryptotable" */;
+			buildPhases = (
+				391B7EB6E6C2FCFF6E4AC4A1 /* [CP] Check Pods Manifest.lock */,
+				713A507F1EFD541D007416AB /* Sources */,
+				713A50801EFD541D007416AB /* Frameworks */,
+				713A50811EFD541D007416AB /* Resources */,
+				9DF1F063DE35A784F0D035D1 /* [CP] Embed Pods Frameworks */,
+				68A3429B1D279A42078FB5D1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cryptotable;
+			productName = Cryptotable;
+			productReference = 713A50831EFD541D007416AB /* Cryptotable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		713A507B1EFD541D007416AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Albrecht Weber";
+				TargetAttributes = {
+					713A50821EFD541D007416AB = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 713A507E1EFD541D007416AB /* Build configuration list for PBXProject "Cryptotable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 713A507A1EFD541D007416AB;
+			productRefGroup = 713A50841EFD541D007416AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				713A50821EFD541D007416AB /* Cryptotable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		713A50811EFD541D007416AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F5685D1EFEA75D0099DABB /* overview3_heller.png in Resources */,
+				71A67B701F0FB86F0025B9F4 /* index2.html in Resources */,
+				71F568531EFDB5D40099DABB /* button.png in Resources */,
+				71F568571EFDBE510099DABB /* poloniex3.png in Resources */,
+				71B3F2861F0E706000CCBD0F /* index.html in Resources */,
+				713A508E1EFD541D007416AB /* Assets.xcassets in Resources */,
+				71F5685B1EFE84BE0099DABB /* poloniex3_heller.png in Resources */,
+				71F568511EFDA8830099DABB /* poloniex_blau_mit_beige.png in Resources */,
+				71F568591EFDBE5E0099DABB /* overview3.png in Resources */,
+				713A509B1EFD58BC007416AB /* polo_unten.png in Resources */,
+				71F568391EFD5B540099DABB /* overview.png in Resources */,
+				71F01BAB1F033FB3007A1D67 /* starEmpty.png in Resources */,
+				71F01BAD1F033FBC007A1D67 /* starFilled.png in Resources */,
+				71F01BA11F02F440007A1D67 /* starGelb_klein.png in Resources */,
+				713A50911EFD541D007416AB /* Main.storyboard in Resources */,
+				71F568701EFF19CF0099DABB /* settings.png in Resources */,
+				71F01B9F1F02F431007A1D67 /* starLeer_klein.png in Resources */,
+				71F5686E1EFF19C30099DABB /* settings_heller.png in Resources */,
+				71F5683B1EFD5C030099DABB /* poloniex_bau.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		391B7EB6E6C2FCFF6E4AC4A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		68A3429B1D279A42078FB5D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cryptotable/Pods-Cryptotable-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DF1F063DE35A784F0D035D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cryptotable/Pods-Cryptotable-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		713A507F1EFD541D007416AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F5684F1EFD7C660099DABB /* Notifications.swift in Sources */,
+				71F568401EFD5EE30099DABB /* ViewController2.swift in Sources */,
+				713DB2711F04427C00076DF4 /* CoinContainer.swift in Sources */,
+				71F5683D1EFD5ED90099DABB /* ViewController1.swift in Sources */,
+				71F568741EFF23E10099DABB /* reserveCode.swift in Sources */,
+				71026ACC1F0C0CD200693EFA /* frage.swift in Sources */,
+				71F5684B1EFD73110099DABB /* overviewImageButton.swift in Sources */,
+				715C81121F0A648200FA2AE9 /* CoinDataModel.xcdatamodeld in Sources */,
+				713A50891EFD541D007416AB /* ViewController.swift in Sources */,
+				71F5686C1EFF07300099DABB /* ColorExtension.swift in Sources */,
+				713D6EAF1F008D9700D072EB /* colordefaults.swift in Sources */,
+				71F568621EFEB1C20099DABB /* DateExtension.swift in Sources */,
+				71F568601EFEB1B50099DABB /* Pusher.swift in Sources */,
+				71167E7B1F06996700169CE7 /* CoinValues.swift in Sources */,
+				71F568721EFF1EE60099DABB /* SettingsViewController.swift in Sources */,
+				713A50871EFD541D007416AB /* AppDelegate.swift in Sources */,
+				71F568641EFEB1CC0099DABB /* JSONHelper.swift in Sources */,
+				71F01BA51F02F6F2007A1D67 /* CheckBox.swift in Sources */,
+				715C81381F0ACA1B00FA2AE9 /* BigNumbers.swift in Sources */,
+				71F568661EFEB1E00099DABB /* Helpers.swift in Sources */,
+				71F01BA71F02FDC2007A1D67 /* AddStats.swift in Sources */,
+				713DB26F1F03EAAD00076DF4 /* deviation.swift in Sources */,
+				71653DF31F083B37005AB4AE /* headerButton.swift in Sources */,
+				71F568681EFEB1F70099DABB /* CoinmarketRequest.swift in Sources */,
+				71167E791F06995A00169CE7 /* Data.swift in Sources */,
+				71653DFB1F0875D0005AB4AE /* CustomTableHeaderCell.swift in Sources */,
+				71F01B9D1F02D43E007A1D67 /* reserve.swift in Sources */,
+				715C815B1F0BD9CC00FA2AE9 /* Logorequest.swift in Sources */,
+				71F5686A1EFEB6760099DABB /* ProgressView.swift in Sources */,
+				71167E7D1F06997500169CE7 /* Coins_NSManaged.swift in Sources */,
+				713D6EAB1F00652B00D072EB /* IntegerTransformmer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		713A508F1EFD541D007416AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				713A50901EFD541D007416AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		713A50931EFD541D007416AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		713A50941EFD541D007416AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		713A50961EFD541D007416AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC6B37C0E9E0FCB0634BDD44 /* Pods-Cryptotable.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Cryptotable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hff.Cryptotable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		713A50971EFD541D007416AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA630921D15AA1AAC8A9B510 /* Pods-Cryptotable.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Cryptotable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hff.Cryptotable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		713A507E1EFD541D007416AB /* Build configuration list for PBXProject "Cryptotable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				713A50931EFD541D007416AB /* Debug */,
+				713A50941EFD541D007416AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		713A50951EFD541D007416AB /* Build configuration list for PBXNativeTarget "Cryptotable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				713A50961EFD541D007416AB /* Debug */,
+				713A50971EFD541D007416AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		715C81101F0A648200FA2AE9 /* CoinDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				715C81111F0A648200FA2AE9 /* CoinDataModel.xcdatamodel */,
+			);
+			currentVersion = 715C81111F0A648200FA2AE9 /* CoinDataModel.xcdatamodel */;
+			path = CoinDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 713A507B1EFD541D007416AB /* Project object */;
+}

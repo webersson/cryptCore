@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.4.0)
+  - CustomSegue (2.0.0)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire (from `https://github.com/Alamofire/Alamofire.git`, tag `4.4.0`)
+  - CustomSegue
+  - SwiftyJSON
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :git: https://github.com/Alamofire/Alamofire.git
+    :tag: 4.4.0
+
+CHECKOUT OPTIONS:
+  Alamofire:
+    :git: https://github.com/Alamofire/Alamofire.git
+    :tag: 4.4.0
+
+SPEC CHECKSUMS:
+  Alamofire: 4c2bf7fa03c4a626163606de0a417568c270575e
+  CustomSegue: 3fcc304a1f658559f1a1da3c3721c214a7e49352
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 0e4707d059e053420402f0d84028bc44e6544b6e
+
+COCOAPODS: 1.2.1
